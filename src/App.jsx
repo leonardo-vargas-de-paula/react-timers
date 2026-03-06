@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import './App.module.css'
+import styles from './App.module.css'
 import TimerForm from './component/TimerForm'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <main>
-      <h1>Timer</h1>
+    <main className={styles.main}> 
+      <h1 className={styles.title}>Timer</h1>
       <TimerForm />
     </main>
   )

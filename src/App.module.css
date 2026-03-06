@@ -1,7 +1,11 @@
-.title{
-    color: rgb(61, 148, 119);
+.main{
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+
 }
 
-.main{
-    
+.title{
+    color: rgb(192, 155, 240);
+    text-align: center;
 }
