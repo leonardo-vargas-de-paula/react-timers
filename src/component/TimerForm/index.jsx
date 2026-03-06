@@ -1,9 +1,9 @@
-import "./styles.css"
+import styles from  "./TimerForm.module.css"
 
 function TimerForm() {
     return(
         <form action="">
-            <h1>Form</h1>
+            <h1 className={styles.title}>Form</h1>
         </form>
     );
 }
