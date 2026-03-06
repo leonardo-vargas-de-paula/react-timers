@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './App.module.css'
 import TimerForm from './component/TimerForm'
 
 function App() {
