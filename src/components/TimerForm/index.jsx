@@ -1,15 +1,17 @@
 import styles from "./TimerForm.module.css"
 
-function TimerForm() {
+function TimerForm({ setTimer }) {
     const handleFormSubmit = (event) => {
         event.preventDefault();
         
         const form = event.target;
 
         const newTimer = Object.fromEntries(new FormData(form));
+        newTimer.id = Date.now();
         newTimer.duration = parseInt(newTimer.duration)
         console.log(newTimer)
-        //TODO: add array
+        
+        setTimer((timers)=>[...timers, newTimer])
 
         form.reset();
 
