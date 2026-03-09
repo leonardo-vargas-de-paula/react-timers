@@ -17,4 +17,16 @@
     border-radius: 0.5rem;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    filter: brightness(1);
+}
+
+.teste{
+    width: 90px;
+    border: 1px;
+    background-color: yellow;
+
 }

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styles from './App.module.css'
-import TimerForm from './component/TimerForm'
+import TimerForm from './components/TimerForm'
 
 function App() {
   const [count, setCount] = useState(0)
